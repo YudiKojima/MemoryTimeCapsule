@@ -7,8 +7,8 @@ function Hero() {
     <div className="space-y-5">
       <Image src={nlwLogo} alt="Nlw Logo" />
       <div className="max-w-[420px] space-y-1">
-        <h1 className="text-5xl font-bold leading-tight text-gray-900">
-          Your time capsule
+        <h1 className="text-5xl font-bold uppercase leading-tight text-gray-900">
+          Your time <span className="text-orange-400">capsule</span>
         </h1>
         <p className="text-lg leading-relaxed text-gray-700">
           Collect memorable moments from your journey and share (if you like)
