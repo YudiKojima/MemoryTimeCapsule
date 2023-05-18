@@ -2,7 +2,7 @@ import React from 'react'
 
 function Copyright() {
   return (
-    <div className="text-sm leading-relaxed text-gray-200">
+    <div className="text-sm leading-relaxed text-gray-400">
       Made by YudiKojima at NLW, code:{' '}
       <a
         target="_blank"
