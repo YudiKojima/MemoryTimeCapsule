@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import nlwLogo from '../../assets/nlw-spacetime-logo.svg'
+import Link from 'next/link'
 
 function Hero() {
   return (
@@ -16,12 +17,12 @@ function Hero() {
         </p>
       </div>
       <div className="mt-5">
-        <a
+        <Link
           className="incline-block rounded-full bg-gradient-to-r from-purple-500 to-orange-300 px-5 py-3 font-alt text-sm uppercase leading-none text-white opacity-90 transition-opacity hover:opacity-100"
-          href=""
+          href="/memories/new"
         >
           register memory
-        </a>
+        </Link>
       </div>
     </div>
   )
